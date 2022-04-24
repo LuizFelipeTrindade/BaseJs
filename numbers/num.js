@@ -22,6 +22,26 @@ console.log(result < Number.EPSILON);
 
 // METODOS NUMBERS //
 
+
+//IsFinite()
 var s4 = Number.isFinite(15);
 
 console.log(s4) // Vai retorna booleanos, nesse casao retorna true
+
+
+//isInteger()
+var macaco = Number.isInteger(1.5);//Não é inteiro = false
+
+var melancia = Number.isInteger(8); // É inteiro = true
+
+console.log(macaco, melancia);
+
+
+//isNaN()
+
+var cua = Number.isNaN("37");
+
+var mua = Number.isNaN(NaN);
+
+console.log(cua, mua, typeof(cua));
+
