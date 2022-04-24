@@ -20,3 +20,8 @@ console.log(result);
 console.log(result < Number.EPSILON);
 // expected output: true
 
+// METODOS NUMBERS //
+
+var s4 = Number.isFinite(15);
+
+console.log(s4) // Vai retorna booleanos, nesse casao retorna true
