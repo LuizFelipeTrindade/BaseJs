@@ -45,3 +45,21 @@ var mua = Number.isNaN(NaN);
 
 console.log(cua, mua, typeof(cua));
 
+//Toexponential()
+
+var numObj = 77.1234;
+
+console.log(numObj.toExponential());  // logs 7.71234e+1
+console.log(numObj.toExponential(4)); // logs 7.7123e+1
+console.log(numObj.toExponential(2)); // logs 7.71e+1
+console.log(77.1234.toExponential()); // logs 7.71234e+1
+console.log(77 .toExponential());     // logs 7.7e+1
+
+//ToFixed()
+
+var numObjeto = 12345.6789;
+
+numObjeto.toFixed();       // Retorna '12346': note o arredondamento, não possui nenhuma parte fracionária
+numObjeto.toFixed(1);      // Retorna '12345.7': note o arredondamento
+
+
