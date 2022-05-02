@@ -40,3 +40,4 @@ function retornaundefined() {
 variavel = retornaundefined; //A variavel recebeu a função
 
 console.log(variavel())
+
