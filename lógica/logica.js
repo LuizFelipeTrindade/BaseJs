@@ -205,3 +205,17 @@ console.log(trabalho())
 
 
 
+function numeros(){
+    let a = 20 ** 2
+    let b = 120 ** 2
+    let c = 50 ** 2
+    let d = 70 ** 2
+    if (c >= 1000){
+        return 'Finalizado'
+    } else {
+        return a, b, c, d
+    }
+}
+console.log(numeros())
+
+const ator = 
