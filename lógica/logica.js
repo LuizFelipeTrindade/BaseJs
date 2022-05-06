@@ -78,3 +78,130 @@ function retornador(){
 console.log(retornador())
 
 //===============================//
+
+function sal(){
+    let salbase = 1700;
+    let gratif = 300;
+    let salbruto = salbase + gratif;
+    if(salbruto < 1000 ){
+        let IF = salbruto * (15/100);
+        return IF
+    } else {
+        let IR = salbruto * (20/100);
+        let ar = 2000 - 400;
+        return ar;
+    } 
+
+}
+
+console.log(sal())
+
+//=================================//
+
+
+
+//========================================///
+
+function salde(){
+    let salabruto = 100;
+    let salliqui = 100;
+    if(salliqui >= 100){
+        return true
+    }else {
+        return false
+    }
+}
+
+
+function tosemnome(){
+    let sallae = 200;
+    let irfdp = 10;
+    let liquido = sallae - irfdp;
+    if(liquido < 190){
+        return true
+    }else {
+        return false
+    }
+}
+
+function naoaguentomais(){
+    let salfunc = 300;
+    let irdnv = 15;
+    let liquidifica = 285
+    if(liquidifica == salfunc - irdnv){
+        return true
+    }else {
+        return false
+    }
+}
+
+console.log(salde(), tosemnome(), naoaguentomais())
+
+
+
+function ler(){
+    let salariobase = 4000;
+    let gratificacao = 250;
+    let salariobruto = salariobase + gratificacao;
+    if(salariobruto < 1000){
+        let impostoderenda = salariobruto * (15/100)
+        let salatioliquido = salariobruto - impostoderenda;
+        return salatioliquido
+    }else {
+        let impostoderenda = salariobruto * (20/100)
+        let salatioliquido = salariobruto - impostoderenda;
+        return salatioliquido
+    }   
+}
+
+console.log(ler())
+
+function media(){
+    let nota = 6;
+    if(nota >= 5){
+        if(nota >= 7){
+            return 'aluno aprovado'
+        }else{
+            return 'precisa fazer outra avaliação'
+        }
+    }else{
+        return 'aluno reprovado'
+    }
+}
+
+console.log(media())
+
+function pescador(){
+    let peso = 300;
+    if(peso > 50){
+        let e = peso;
+        let m = `Você excedeu o peso minínimo de 50kg, ${e}, terá que pagar uma multa R$4,00`
+        return m
+    }else{
+        let a = `Você não excedeu o peso, até mais`
+        return a
+    }
+}
+
+console.log(pescador())
+
+
+function trabalho(){
+    let codigodotrabalhador = 006;
+    let horastrabalhadas = 100;
+    let precohora = 10;
+    if(horastrabalhadas > 50){
+        let salario = (horastrabalhadas - 50) * precohora
+        let excedente = (horastrabalhadas - 50) * (precohora * 2);
+        return salario, excedente
+    }else {
+        return 0
+    }
+}
+console.log(trabalho())
+
+
+//==================================================//
+
+
+
