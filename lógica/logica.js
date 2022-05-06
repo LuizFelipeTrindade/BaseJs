@@ -218,4 +218,39 @@ function numeros(){
 }
 console.log(numeros())
 
-const ator = 
+const ator = () => {
+    let aa = 21
+    if(aa % 2 === 0){
+        return 'Par'
+    }else {
+        return 'Ímpar'
+    }
+}
+console.log(ator())
+
+//=====================================//
+
+function intimar(){
+    let poluicao = 0.2;
+    if(poluicao === 0.5){
+        return 'Todas as atividades serão suspensas'
+    }else if(poluicao === 0.3){
+        return 'Apenas o primeiro grupo será intimado'
+    }if(poluicao === 0.4){
+        return 'O primeiro e segundo grupo será intimado'
+    }if(poluicao <= 0.2){
+        return 'Tudo certo por aqui'
+    }
+}
+console.log(intimar())
+
+//==============================================//
+
+
+
+for(let c = 1; c <= 200; c++){
+    if(c % 2 === 1){
+        console.log(c)
+    }
+}
+
