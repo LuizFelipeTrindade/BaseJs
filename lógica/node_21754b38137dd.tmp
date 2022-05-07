@@ -255,23 +255,10 @@ console.log(intimar())
 //}
 
 
-
-let inicio = 1
-let somatorio = 1
-
- for(let i = 2; i <= 64; i++){
-    inicio = inicio * 2
-    somatorio += inicio
-    console.log(somatorio)
-}
-
-
-for(let g = 0; g <= 100; g++){
-    if(g % 10 === 0 ){
-        let m = `O multiplo ${g} é multiplo de 10`
-        console.log(m)
-    }else {
-        let m = `O multiplo ${g} não é multiplo de 10`
-        console.log(m)
+let n = 1
+while(n != 0){
+    console.log(n)
+    if( n > 10){
+        console.log(n)
     }
 }
