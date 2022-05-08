@@ -27,3 +27,24 @@ dotNotation.metodo2 = () => {
 
 console.log(dotNotation.prop2) //Atribui na constante um novo método
 console.log(dotNotation.metodo2()) //Atribui na constante uma nova função
+
+
+//==============================================//
+
+    //===========BreakNotation(Notação de colchete)===========//
+
+const brek = {
+    propriedade1 : 'Pitú',
+    metodoM : () => {
+        return 'Sou eu ahhaudashduahdus'
+    }
+}
+
+console.log(brek["propriedade1"], brek["metodoM"]()) // Dentro das chaves tem que ter as '' aspas simples ou "" duplas
+
+brek['propriedade2'] = "Sou um CU"
+brek['metodoMais'] = () => {
+    return 'bunda'
+}
+
+console.log(brek['propriedade2'], brek['metodoMais']())
