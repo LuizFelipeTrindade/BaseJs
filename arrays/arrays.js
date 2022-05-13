@@ -55,5 +55,17 @@ var removedItem = frutas.splice(pos, 1); // é assim que se remove um item pelo 
 
 console.log(frutas, pos)
 
+//Usando o 'new'
+
+const frutasusandonew = new Array('Maca', 'bacana')//declarando os elementos como arguments
+
+const frutastamanho = new Array(10)//dando o número de posições como argumento
+
+console.log(frutasusandonew, frutastamanho)
 
 
+//Arrays densos e esparso
+
+const arrdenso = [1, 2, 3, 4, 5, 6]
+
+const arresparso = [1,,,3]
