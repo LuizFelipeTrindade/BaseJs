@@ -38,3 +38,4 @@ var fn = obj.bar();
 // Chamar fn, sem definir this, por padrão, referenciaria
 // ao objeto global ou undefined em modo estrito (strict mode)
 console.log(fn() === obj); // true
+
