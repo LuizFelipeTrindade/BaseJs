@@ -39,3 +39,18 @@ var fn = obj.bar();
 // ao objeto global ou undefined em modo estrito (strict mode)
 console.log(fn() === obj); // true
 
+
+
+function animal(obj){
+    this.obje = obj
+    this.obj= {
+
+    }
+    
+    return 
+  }
+  
+  
+  
+  
+  
