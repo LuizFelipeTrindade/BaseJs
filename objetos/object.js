@@ -14,7 +14,7 @@ const dotNotation = {
     }
 }
 
-console.log(dotNotation.metodo())
+console.log("AHHH EU" + dotNotation.metodo() + "Muita cansada")
 console.log(dotNotation.prop1)
 
 
@@ -40,7 +40,7 @@ const brek = {
     }
 }
 
-console.log(brek["propriedade1"], brek["metodoM"]()) // Dentro das chaves tem que ter as '' aspas simples ou "" duplas
+console.log("Sou uma " + brek["propriedade1"], brek["metodoM"]()) // Dentro das chaves tem que ter as '' aspas simples ou "" duplas
 
 brek['propriedade2'] = "Sou um CU"
 brek['metodoMais'] = () => {
