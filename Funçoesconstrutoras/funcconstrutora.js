@@ -6,7 +6,10 @@ function Carro(marca, modelo, ano){
 
 const carro1 = new Carro('Charger', 'RT', 1970)
 
-console.log(carro1)
+// console.log(carro1)
+
+console.log(new Carro('charger', 'RT', 1970))
+
 
 function Aluno() {
 

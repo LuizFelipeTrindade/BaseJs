@@ -69,3 +69,6 @@ console.log(frutasusandonew, frutastamanho)
 const arrdenso = [1, 2, 3, 4, 5, 6]
 
 const arresparso = [1,,,3]
+
+
+//Arryas//

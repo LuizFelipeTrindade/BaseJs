@@ -41,15 +41,6 @@ console.log(fn() === obj); // true
 
 
 
-function animal(obj){
-    this.obje = obj
-    this.obj= {
-
-    }
-    
-    return 
-  }
-  
   
   
   
