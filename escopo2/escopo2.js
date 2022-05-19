@@ -36,3 +36,18 @@ funcaoNivel1()
 // }
 
 
+function foo(a){
+    var name = "Lucas";
+    console.log(name)
+    //console.log(age) (foo não tem acesso a função bar, mas bar tem acesso a 
+    //função foo)
+
+    function bar(){
+        var age = 15;
+
+        console.log(name)
+        console.log(age)
+    }
+    bar()
+}
+foo()
