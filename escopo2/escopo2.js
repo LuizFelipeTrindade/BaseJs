@@ -28,3 +28,11 @@ function funcaoNivel1(){
 }
 
 funcaoNivel1()
+
+//========= O escopo é definido assim que uma função é criado============//
+
+// function hello (name){
+    //Aqui foi criado um escopo local
+// }
+
+
