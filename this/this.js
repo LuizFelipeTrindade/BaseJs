@@ -41,6 +41,20 @@ console.log(fn() === obj); // true
 
 
 
+
+function animals(obj){
+   obj = {
+    Name: 'dog',
+    legs: 4,
+    Color: 'White',
+    fullanimais : function(){
+      return `this is ${this.Name} have ${this.legs} legs and your color is ${this.Color}`
+    }
+  }
+  console.log(obj.fullanimais())
+}
+animals()
+
   
   
   

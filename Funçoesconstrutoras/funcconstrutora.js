@@ -69,8 +69,8 @@ var person = {
 }
 console.log(person.fullName())
 
-function animals(){
-  let animais = {
+function animals(obj){
+   obj = {
     Name: 'dog',
     legs: 4,
     Color: 'White',
@@ -78,6 +78,6 @@ function animals(){
       console.log(`this is ${this.Name} have ${this.legs} legs and your color is ${this.Color}`)
     }
   }
-  console.log(animais.fullanimais())
+  console.log(obj.fullanimais())
 }
 animals()
