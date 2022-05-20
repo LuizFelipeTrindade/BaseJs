@@ -51,3 +51,33 @@ ventilador1.ligadesliga()
 console.log(ventilador1.ligado)
 
 console.log(ventilador1)
+
+//==============================//
+
+
+
+var person = {
+    firstName : "Penelope",
+    lastName  : "Barrymore",
+    fullName  : function() {
+        // Notou o uso do "this" tal como se usou "ele" no exemplo da frase anterior?
+        console.log( this.firstName + ' ' + this.lastName );
+ 
+        // Também poderia se ter escrito:
+        console.log( person.firstName + ' ' + person.lastName );
+    }
+}
+console.log(person.fullName())
+
+function animals(){
+  let animais = {
+    Name: 'dog',
+    legs: 4,
+    Color: 'White',
+    fullanimais : function(){
+      console.log(`this is ${this.Name} have ${this.legs} legs and your color is ${this.Color}`)
+    }
+  }
+  console.log(animais.fullanimais())
+}
+animals()
