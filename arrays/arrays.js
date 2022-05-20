@@ -72,3 +72,13 @@ const arresparso = [1,,,3]
 
 
 //Arryas//
+
+
+
+function avaliar(){
+  const mamba = ["1", 2]
+  if(mamba === Number || String ){
+    console.log('É um Número ou String')
+  }
+}
+avaliar()
