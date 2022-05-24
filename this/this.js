@@ -76,7 +76,17 @@ print.call(article); // O call específicou o contexto do this
 
 
 
+// ======== APPLY ========== //
 
+//O Apply funciona exatamente como o método Call, porém seu segundo parâmetro recebe um Array dos parâmetros da função, enquanto o primeiro parâmetro continua recebendo o valor que será atribuído ao this. Vejamos um novo exemplo, mas agora utilizando o apply:
+
+function sumNumbers(firstNumber, secondNumber) {
+	const sum =  this + firstNumber + secondNumber;
+
+	console.log(sum)
+}
+
+sumNumbers.apply(5/* This*/, /*Array*/[2, 7]) // 14
 
   
   
