@@ -55,6 +55,29 @@ function animals(obj){
 }
 animals()
 
+
+// ======== CALL ==========//
+
+//No exemplo a seguir, criaremos um objeto e uma função que faz referência ao this sem ter o this referenciado em seu escopo.
+
+const article = {
+  title: 'Descomplicando call, apply e bind',
+  language: 'JavaScript',
+};
+
+function print() {
+  console.log(`${this.title} em ${this.language}.`);
+}
+
+// print(); == Nesse método ele retorna undefined, pois o objeto que "print" se refere não está disponivel no escopo , entretando usando "print.call(article);" ele vai conseguir achar o objeto
+
+
+print.call(article); // O call específicou o contexto do this 
+
+
+
+
+
   
   
   
