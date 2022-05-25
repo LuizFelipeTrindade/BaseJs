@@ -90,5 +90,11 @@ sumNumbers.apply(5/* This*/, /*Array*/[2, 7]) // 14
 
   
   
-  
+function betterThanAverage(classPoints, yourPoints) {
+  let aluno1 = [8,7, 4, 5, 6, 9, 5 ]
+  let aluno2 = [7, 6, 4, 9, 1, 3, 4]
+  let aluno3 = [9, 5, 7, 1, 5, 4, 7]
+  let aluno4 = 
+}
+
   
