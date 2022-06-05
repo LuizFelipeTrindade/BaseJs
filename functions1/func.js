@@ -4,6 +4,8 @@ const bunda = (chuchu) => {
     chuchu.ano = 2004
 }
  
+
+
 /*
 * Declare a variável 'meucarro';
 * crie e inicialize um novo Objeto;
