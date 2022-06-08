@@ -34,3 +34,4 @@ function saHello() {
 }
 saHello()(); //O parenteses duplo servve para chamar as duas funções, tanto a primeira que retorna uma função, quanto a função retornada , é bem útil para não poluir o código colocando outras variáveis
 
+//Js é formada por função de primeira classe
