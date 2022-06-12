@@ -37,3 +37,7 @@ saHello()(); //O parenteses duplo servve para chamar as duas funções, tanto a 
 //Js é formada por função de primeira classe
 
 //modified
+
+function Asmr(){
+   return 'Asmr'
+}
