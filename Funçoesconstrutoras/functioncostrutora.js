@@ -81,3 +81,5 @@ function animals(obj){
   console.log(obj.fullanimais())
 }
 animals()
+
+//Revisão de This
