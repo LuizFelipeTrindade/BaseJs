@@ -38,3 +38,9 @@ console.log(somar(15,15))
 const resultadosoma = somar(15, 15)
 
 console.log(resultadosoma + 10)
+
+const anonima = function(){
+    return 'anônima'
+}
+
+console.log(anonima())
