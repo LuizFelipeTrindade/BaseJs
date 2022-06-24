@@ -43,3 +43,12 @@ variavel = retornaundefined; //A variavel recebeu a função
 
 console.log(variavel())
 
+
+
+function arra(){
+    let ar = [1,2,3,4]
+    ar.push(5)
+    return ar
+}
+
+console.log(arra())
